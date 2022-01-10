@@ -1,0 +1,5 @@
+mon method=ifconfig 
+# for the tool above ifconfig means it will use ifconfig & iwconfig
+# instead of airmon-ng (recomended for pinephone)
+defualt interface=wlan0
+
